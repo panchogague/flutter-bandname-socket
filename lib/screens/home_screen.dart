@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Dismissible(
       key: Key(band.id!),
       direction: DismissDirection.startToEnd,
-      onDismissed: (direction) => print('delete in server'),
+      onDismissed: (direction) => print('delete in server!'),
       background: Container(
         padding: const EdgeInsets.only(left: 8),
         color: Colors.red,
